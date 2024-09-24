@@ -25,7 +25,7 @@ Components of the Architecture:
 	
 This architecture provides a robust, scalable, and secure environment for running the Stan’s Robot Shop application, ensuring a smooth customer experience.
 
-## Sample ScreenShots
+## Sample Screenshots
 
 <img width="1440" alt="1" src="https://github.com/user-attachments/assets/d9beee9f-ee14-4d37-aa9d-74701d2d830b">
 <img width="1440" alt="2" src="https://github.com/user-attachments/assets/8ad948c3-c0e4-450c-990a-d3ad64e5e241">
