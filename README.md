@@ -15,6 +15,8 @@ Components of the Architecture:
 
 	•	Cluster Management with eksctl: The entire EKS cluster is provisioned and managed using eksctl, an easy-to-use CLI tool that simplifies Kubernetes cluster creation and resource management.
  
+	•  	Helm: Helm is used to manage and deploy the entire application, including the frontend, backend, and any supporting services. By packaging each component as a Helm chart, you can define Kubernetes resources declaratively, enabling easy updates, rollbacks, and scalability. Helm charts simplify the deployment process by automating the creation of Kubernetes resources such as deployments, services, config maps, and Ingress resources.
+ 
  	•	Security & Compliance: IAM roles and policies are integrated into the deployment using eksctl, ensuring secure access to AWS resources while maintaining compliance.
   
   	•	AWS ALB Controller: The AWS ALB Controller is integrated with Kubernetes Ingress to automatically provision an Application Load Balancer (ALB) when Ingress resources are created. 
